@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	NetworkInfo
-%define	pnam	Discovery
+%define		pdir	NetworkInfo
+%define		pnam	Discovery
 Summary:	NetworkInfo::Discovery - modules for network discovery and mapping
 Summary(pl):	NetworkInfo::Discovery - modu³y do wykrywania i odwzorowywania sieci
 Name:		perl-NetworkInfo-Discovery
