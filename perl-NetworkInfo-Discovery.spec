@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	NetworkInfo
 %define	pnam	Discovery
-Summary:	NetworkInfo::Discovery - Modules for network discovery and mapping
-#Summary(pl):	
+Summary:	NetworkInfo::Discovery - modules for network discovery and mapping
+Summary(pl):	NetworkInfo::Discovery - modu³y do wykrywania i odwzorowywania sieci
 Name:		perl-NetworkInfo-Discovery
 Version:	0.12
 Release:	1
@@ -26,19 +26,28 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-NetworkInfo::Discovery is a set of modules that can be used to discover
-network topology, interfaces on the network, and information about
-the links between subnets.  This information is brought together into
-C<NetworkInfo::Discovery::Register> where it can be examined and used
-to build a unified map of the network.  The network map is controlled
-from a single location.
+NetworkInfo::Discovery is a set of modules that can be used to
+discover network topology, interfaces on the network, and information
+about the links between subnets. This information is brought together
+into NetworkInfo::Discovery::Register where it can be examined and
+used to build a unified map of the network. The network map is
+controlled from a single location.
 
-Host detection currently runs from a single location, but in the future
-there will be support for having remote agents that contribute to the
-central map.
+Host detection currently runs from a single location, but in the
+future there will be support for having remote agents that contribute
+to the central map.
 
-# %description -l pl
-# TODO
+%description -l pl
+NetworkInfo::Discovery to zbiór modu³ów, których mo¿na u¿ywaæ do
+wykrywania topologii sieci, interfejsów w sieci oraz informacji o
+po³±czeniach miêdzy podsieciami. Informacje s± gromadzone w
+NetworkInfo::Discovery::Register, gdzie mog± byæ sprawdzane i u¿ywane
+do zbudowania ujednoliconej mapy sieci. Mapa sieci jest kontrolowana z
+jednego miejsca.
+
+Wykrywanie hostów aktualnie dzia³a z jednego miejsca, ale w
+przysz³o¶ci bêdzie obs³uga zdalnych agentów dostarczaj±cych informacji
+do centralnej mapy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
