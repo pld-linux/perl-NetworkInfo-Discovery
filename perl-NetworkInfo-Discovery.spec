@@ -6,7 +6,7 @@
 %define		pdir	NetworkInfo
 %define		pnam	Discovery
 Summary:	NetworkInfo::Discovery - modules for network discovery and mapping
-Summary(pl):	NetworkInfo::Discovery - modu³y do wykrywania i odwzorowywania sieci
+Summary(pl.UTF-8):   NetworkInfo::Discovery - moduÅ‚y do wykrywania i odwzorowywania sieci
 Name:		perl-NetworkInfo-Discovery
 Version:	0.12
 Release:	1
@@ -37,16 +37,16 @@ Host detection currently runs from a single location, but in the
 future there will be support for having remote agents that contribute
 to the central map.
 
-%description -l pl
-NetworkInfo::Discovery to zbiór modu³ów, których mo¿na u¿ywaæ do
-wykrywania topologii sieci, interfejsów w sieci oraz informacji o
-po³±czeniach miêdzy podsieciami. Informacje s± gromadzone w
-NetworkInfo::Discovery::Register, gdzie mog± byæ sprawdzane i u¿ywane
+%description -l pl.UTF-8
+NetworkInfo::Discovery to zbiÃ³r moduÅ‚Ã³w, ktÃ³rych moÅ¼na uÅ¼ywaÄ‡ do
+wykrywania topologii sieci, interfejsÃ³w w sieci oraz informacji o
+poÅ‚Ä…czeniach miÄ™dzy podsieciami. Informacje sÄ… gromadzone w
+NetworkInfo::Discovery::Register, gdzie mogÄ… byÄ‡ sprawdzane i uÅ¼ywane
 do zbudowania ujednoliconej mapy sieci. Mapa sieci jest kontrolowana z
 jednego miejsca.
 
-Wykrywanie hostów aktualnie dzia³a z jednego miejsca, ale w
-przysz³o¶ci bêdzie obs³uga zdalnych agentów dostarczaj±cych informacji
+Wykrywanie hostÃ³w aktualnie dziaÅ‚a z jednego miejsca, ale w
+przyszÅ‚oÅ›ci bÄ™dzie obsÅ‚uga zdalnych agentÃ³w dostarczajÄ…cych informacji
 do centralnej mapy.
 
 %prep
