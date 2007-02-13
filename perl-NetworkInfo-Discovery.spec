@@ -6,7 +6,7 @@
 %define		pdir	NetworkInfo
 %define		pnam	Discovery
 Summary:	NetworkInfo::Discovery - modules for network discovery and mapping
-Summary(pl.UTF-8):   NetworkInfo::Discovery - moduły do wykrywania i odwzorowywania sieci
+Summary(pl.UTF-8):	NetworkInfo::Discovery - moduły do wykrywania i odwzorowywania sieci
 Name:		perl-NetworkInfo-Discovery
 Version:	0.12
 Release:	1
