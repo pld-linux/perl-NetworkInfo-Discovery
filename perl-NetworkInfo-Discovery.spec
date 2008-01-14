@@ -9,7 +9,7 @@ Summary:	NetworkInfo::Discovery - modules for network discovery and mapping
 Summary(pl.UTF-8):	NetworkInfo::Discovery - moduły do wykrywania i odwzorowywania sieci
 Name:		perl-NetworkInfo-Discovery
 Version:	0.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -18,9 +18,9 @@ Source0:	http://www.cpan.org/modules/by-authors/id/T/TS/TSCANLAN/%{pdir}-%{pnam}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-NetPacket >= 0.03
 BuildRequires:	perl-Net-Pcap >= 0.04
 BuildRequires:	perl-Net-Traceroute >= 1.05
+BuildRequires:	perl-NetPacket >= 0.03
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -74,6 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README TODO
+%dir %{perl_vendorlib}/NetworkInfo
 %{perl_vendorlib}/NetworkInfo/*.pm
 %{perl_vendorlib}/NetworkInfo/Discovery
 %{_mandir}/man3/*
