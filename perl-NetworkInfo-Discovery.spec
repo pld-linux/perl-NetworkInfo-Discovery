@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/T/TS/TSCANLAN/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5763876ab950dd965d3cf1501b623453
+URL:		http://search.cpan.org/dist/NetworkInfo-Discovery/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
